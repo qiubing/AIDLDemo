@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="bindService"
+        android:text="绑定服务"/>
+
+    <Button
+        android:id="@+id/unbind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="unbindService"
+        android:text="解绑服务"/>
+
+    <Button
+        android:id="@+id/add_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addAction"
+        android:text="添加计算"/>
+
+    <Button
+        android:id="@+id/sub_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="subAction"
+        android:text="减小计算"/>
+
+
+</LinearLayout>
